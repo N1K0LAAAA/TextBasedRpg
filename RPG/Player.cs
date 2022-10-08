@@ -1,21 +1,23 @@
-//Player Stats
-class Player
-{
-    string Name;
-    int PlayerHp = 10;
-    int PlayerAttack = 2;
-    int PlayerDefense = 0;
-    int PlayerMana = 0;
-    int PlayerLevel = 0;
-    int PlayerGold = 0;
 
-    public Player(string PlayerName, int Attack, int Defence, int Mana, int Level, int Gold)
+    public class Player
+{
+    string playerName;
+    int playerHp;
+    int playerAttack;
+    int playerDefense;
+    int playerMana;
+    int playerLevel;
+    int playerGold;
+
+    public Player(string name, int attack, int defence, int mana, int level, int gold, int hp)
     {
-        Name = PlayerName;
-        PlayerAttack = Attack;
-        PlayerDefense = Defence;
-        PlayerMana = Mana;
-        PlayerLevel = Level;
-        PlayerGold = Gold;
+        playerName = name;
+        playerHp = hp;
+        playerAttack = attack;
+        playerDefense = defence;
+        playerMana = mana;
+        playerLevel = level;
+        playerGold = gold;
+        
     }
 }

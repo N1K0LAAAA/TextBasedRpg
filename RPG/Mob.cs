@@ -1,16 +1,23 @@
-//Mob Stats
-class Mob
+
+
+public class Mob
 {
-    string Name = ;
-    int MobHp = 5;
-    int MobAttack = 2;
-    int MobDefence = 0;
 
-    public Mob(string MobName, int Attack, int Defence)
+    string mobName;
+    int mobHp;
+    int mobAttack;
+    int mobDefence;
+
+    public Mob(string name, int hp, int attack, int defence)
     {
-        Name = MobName;
-        MobAttack = Attack;
-        MobDefence = Defence;
+        mobName = name;
+        mobAttack = attack;
+        mobDefence = defence;
+        mobHp = hp;
     }
+    public override string ToString()
+    {
+        return mobName + " has " + mobHp + " Health " + mobAttack + " Attack and " + mobDefence + " Defence";
 
-}   
+    }
+}
