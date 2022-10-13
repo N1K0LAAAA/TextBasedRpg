@@ -1,0 +1,67 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            Menus.displayMenu();
+
+            Console.ReadKey();
+        }
+    }
+
+    public class Menus
+    {
+        public static void displayMenu()
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("1) Arena");
+                Console.WriteLine("2) Shop");
+
+                switch (Console.ReadKey().Key)
+                {
+                    case ConsoleKey.D1:
+                        displayArena();
+                        break;
+
+                    case ConsoleKey.D2:
+                        displayShop();
+                        break;
+                }
+            }
+        }
+
+        private static void displayArena()
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("Press Escape to go back to the main menu");
+                Console.WriteLine("1");
+
+                switch (Console.ReadKey().Key)
+                {
+                    case ConsoleKey.D2:
+                        displayMenu();
+                        break;
+                }
+            }
+        }
+        
+        private static void displayShop()
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("Press Escape to go back to the main menu");
+                Console.WriteLine("Shop items");
+
+                switch (Console.ReadKey().Key)
+                {
+                    case ConsoleKey.D2:
+                        displayMenu();
+                        break;
+                }
+            }
+        }
+    }
