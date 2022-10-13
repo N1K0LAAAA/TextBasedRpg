@@ -1,14 +1,26 @@
-public class Shop
+public class Shop : View 
 {
-    int itemPrice;
-    string itemName;
-
-    public Shop(string name, int price)
+    public Shop()
     {
-    itemName = name;
-    itemPrice = price;
-   
+
     }
+
+    public override void display(ViewController viewController)
+    {
+
+        Console.Clear();
+        Console.WriteLine("Press Escape to go back to the main Menu");
+        Console.WriteLine("Shop Items");
+
+        switch (Console.ReadKey().Key)
+        {
+            case ConsoleKey.Escape:
+                viewController.display("Menu");
+                break;
+        }
+
+    }
+
 }
 
 
