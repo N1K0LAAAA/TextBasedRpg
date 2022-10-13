@@ -1,15 +1,11 @@
-public class Shop : IView 
+public class Shop : View 
 {
-    int itemPrice;
-    string itemName;
-
-    public Shop(string name, int price)
+    public Shop()
     {
-    itemName = name;
-    itemPrice = price;
-   
+
     }
-    public void display()
+
+    public override void display(ViewController viewController)
     {
 
         Console.Clear();
@@ -19,7 +15,7 @@ public class Shop : IView
         switch (Console.ReadKey().Key)
         {
             case ConsoleKey.Escape:
-                this.change();
+                viewController.display("Menu");
                 break;
         }
 

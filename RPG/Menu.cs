@@ -1,6 +1,6 @@
-public class Menu : IView
+public class Menu : View
 {
-   public void display()
+   public override void display(ViewController viewController)
     {
         Console.Clear();
         Console.WriteLine("1) Arena");
@@ -8,13 +8,11 @@ public class Menu : IView
 
         switch (Console.ReadKey().Key)
         {
-
             case ConsoleKey.D1:
-                Arena1.display();
+                viewController.display("Arena");
                 break;
-
             case ConsoleKey.D2:
-                display();
+                viewController.display("Shop");
                 break;
         }
     }

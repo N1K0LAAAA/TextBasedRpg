@@ -1,4 +1,4 @@
-public class Arena : IView
+public class Arena : View
 {
     int arena1bis10;
     string arenaName;
@@ -8,15 +8,15 @@ public class Arena : IView
         arena1bis10 = arenaLevel;
         arenaName = name;
     }
-    public void display()
+    public override void display(ViewController viewController)
     {
         Console.Clear();
         Console.WriteLine("Press Escape to go back to the main Menu");
-        Console.WriteLine("1");
 
         switch (Console.ReadKey().Key)
         {
             case ConsoleKey.Escape:
+                viewController.display("Menu");
                 break;
         }
     }
