@@ -2,7 +2,7 @@
     public class Player
 {
     string playerName;
-    int playerHp;
+    private int playerHp { get; set; }
     int playerAttack;
     int playerDefense;
     int playerMana;

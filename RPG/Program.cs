@@ -12,5 +12,4 @@ public class Program
 
         viewController.display("Menu");
     }
-
 }
