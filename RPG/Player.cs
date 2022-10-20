@@ -2,7 +2,7 @@
     public class Player
 {
     string playerName;
-    private int playerHp { get; set; }
+    private int playerHp;
     int playerAttack;
     int playerDefense;
     int playerMana;
@@ -18,6 +18,15 @@
         playerMana = mana;
         playerLevel = level;
         playerGold = gold;
+        
+    }
+
+    public void player_died()
+    {
+        if (playerHp == 0)
+        {
+            Console.WriteLine("You died");
+        }
         
     }
 }
