@@ -52,51 +52,51 @@ public class Player {
         playerHp -= mob.mobAttack - playerDefence;
     }
 
-    // public void addMana(int newMana) {
-    //     playerMana += newMana;
-    // }
+    public void addMana(int newMana) {
+        playerMana += newMana;
+    }
 
-    // public void removeMana(int newMana) {
-    //     playerMana -= newMana;
-    // }
+    public void removeMana(int newMana) {
+        playerMana -= newMana;
+    }
 
-    // public void addHp(int newHP) {
-    //     playerHp += newHP;
-    // }
+    public void addHp(int newHP) {
+        playerHp += newHP;
+    }
 
-    // public void removeHp(int newHP) {
-    //     playerHp -= newHP;
-    // }
+    public void removeHp(int newHP) {
+        playerHp -= newHP;
+    }
 
-    // public void addGold(int newGold) {
-    //     playerGold += newGold;
-    // }
+    public void addGold(int newGold) {
+        playerGold += newGold;
+    }
 
-    // public void removeGold(int newGold) {
-    //     playerGold -= newGold;
-    // }
+    public void removeGold(int newGold) {
+        playerGold -= newGold;
+    }
 
-    // public void addAttack(int newAttack) {
-    //     playerAttack += newAttack;
-    // }
+    public void addAttack(int newAttack) {
+        playerAttack += newAttack;
+    }
 
-    // public void removeAttack(int newAttack) {
-    //     playerAttack -= newAttack;
-    // }
+    public void removeAttack(int newAttack) {
+        playerAttack -= newAttack;
+    }
 
-    // public void addDefence(int newDefence) {
-    //     playerDefence += newDefence;
-    // }
+    public void addDefence(int newDefence) {
+        playerDefence += newDefence;
+    }
 
-    // public void removeDefence(int newDefence) {
-    //     playerDefence -= newDefence;
-    // }
+    public void removeDefence(int newDefence) {
+        playerDefence -= newDefence;
+    }
 
-    // public void addLevel(int newLevel) {
-    //     playerLevel += newLevel;
-    // }
+    public void addLevel(int newLevel) {
+        playerLevel += newLevel;
+    }
 
-    // public void removeLevel(int newLevel) {
-    //     playerLevel -= newLevel;
-    // }
+    public void removeLevel(int newLevel) {
+        playerLevel -= newLevel;
+    }
 }
