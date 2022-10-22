@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.Design;
 
-public class Program {
-    public static void Main(string[] args) {
+public class Program
+{ 
+    public static void Main(string[] args)
+    {
         ViewController viewController = new ViewController();
 
         viewController.addView("Menu", new Menu());
@@ -10,4 +12,5 @@ public class Program {
 
         viewController.display("Menu");
     }
+
 }
