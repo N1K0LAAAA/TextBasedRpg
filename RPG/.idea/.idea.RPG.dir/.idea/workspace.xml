@@ -4,20 +4,7 @@
     <projectFile>RPG.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74b880d-2acc-47c6-bf44-2db4b5abbaca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RPG.dir/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RPG.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/RPG.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/RPG.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/RPG.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/RPG.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/RPG.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/RPG.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/RPG.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/RPG.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/RPG.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/RPG.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/RPG.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/RPG.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-    </list>
+    <list default="true" id="e74b880d-2acc-47c6-bf44-2db4b5abbaca" name="Changes" comment="Changed the switch to a an if statement in the Arena class, I did the same for the shop class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +13,12 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="max" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/max/RiderProjects/3D-RPG/RPG/Arena.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,7 +71,30 @@
       <updated>1666103160362</updated>
       <workItem from="1666103172317" duration="320000" />
       <workItem from="1666104067076" duration="50000" />
+      <workItem from="1666601169020" duration="727000" />
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1666601317478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666601317478</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated">
+      <created>1666601330248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666601330248</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed the switch to a an if statement in the Arena class, I did the same for the shop class">
+      <created>1666601798893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666601798893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +116,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="Changed the switch to a an if statement in the Arena class, I did the same for the shop class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the switch to a an if statement in the Arena class, I did the same for the shop class" />
   </component>
 </project>
