@@ -4,7 +4,7 @@
     <projectFile>RPG.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74b880d-2acc-47c6-bf44-2db4b5abbaca" name="Changes" comment="Changed the switch to a an if statement in the Arena class, I did the same for the shop class" />
+    <list default="true" id="e74b880d-2acc-47c6-bf44-2db4b5abbaca" name="Changes" comment="b" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +71,7 @@
       <updated>1666103160362</updated>
       <workItem from="1666103172317" duration="320000" />
       <workItem from="1666104067076" duration="50000" />
-      <workItem from="1666601169020" duration="727000" />
+      <workItem from="1666601169020" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1666601317478</created>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666601798893</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="b">
+      <created>1666602134440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666602134440</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +125,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="updated" />
     <MESSAGE value="Changed the switch to a an if statement in the Arena class, I did the same for the shop class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the switch to a an if statement in the Arena class, I did the same for the shop class" />
+    <MESSAGE value="b" />
+    <option name="LAST_COMMIT_MESSAGE" value="b" />
   </component>
 </project>

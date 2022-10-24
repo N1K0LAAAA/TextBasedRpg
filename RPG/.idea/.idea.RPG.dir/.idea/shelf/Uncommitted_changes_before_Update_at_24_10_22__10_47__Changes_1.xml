@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_24_10_22,_10_47_[Changes]1" date="1666601247131" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.RPG.dir/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_22,_10_47_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 24.10.22, 10:47 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net6.0/RPG.assets.cache" />
+    <option name="AFTER_PATH" value="obj/Debug/net6.0/RPG.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.RPG.dir/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_22,_10_47_[Changes]1/RPG.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net6.0/RPG.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="obj/Debug/net6.0/RPG.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.RPG.dir/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_22,_10_47_[Changes]1/RPG.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.RPG.dir/.idea/shelf/Uncommitted_changes_before_Update_at_24_10_22,_10_47_[Changes]1/project.nuget.cache" />
+  </binary>
+</changelist>
