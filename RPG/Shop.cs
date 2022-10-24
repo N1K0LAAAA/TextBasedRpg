@@ -13,10 +13,9 @@ public class Shop : View
             Console.WriteLine("Press Escape to go back to the main Menu");
             Console.WriteLine("Shop Items");
 
-            switch (Console.ReadKey().Key)
+            if (Console.ReadKey().Key == ConsoleKey.Escape)
             {
-                case ConsoleKey.Escape:
-                    viewController.display("Menu");
+                viewController.display("Menu");
                     break;
             }
         }

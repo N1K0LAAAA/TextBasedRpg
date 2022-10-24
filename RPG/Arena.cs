@@ -15,10 +15,9 @@ public class Arena : View
             Console.Clear();
             Console.WriteLine("Press Escape to go back to the main Menu");
 
-            switch (Console.ReadKey().Key)
+            if (Console.ReadKey().Key == ConsoleKey.Escape)
             {
-                case ConsoleKey.D6:
-                    viewController.display("Menu");
+                viewController.display("Menu");
                     break;
             }
         }
