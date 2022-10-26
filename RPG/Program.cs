@@ -11,7 +11,7 @@ public class Program
         viewController.addView("Shop", new Shop());
 
         viewController.display("Menu");
-
+        Player player = new Player("Player", 2, 0, 0, 0, 0, 10);
         Arena arena1 = new Arena(1, "Village");
         Arena arena2 = new Arena(2, "Desert");
         Arena arena3 = new Arena(3, "Mountain");

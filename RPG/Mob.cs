@@ -21,11 +21,4 @@ public class Mob
 
     }
 
-    public void mob_death()
-    {
-        if (mobHp == 0)
-        {
-            Console.WriteLine("You killed the mob, he dropped 10 coins and 5 xp");
-        }
-    }
 }

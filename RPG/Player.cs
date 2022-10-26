@@ -9,24 +9,23 @@
     int playerLevel;
     int playerGold;
 
-    public Player(string name, int attack, int defence, int mana, int level, int gold, int hp)
+    public Player(string name, int attack, int defence, int mana, int xp, int gold, int hp)
     {
         playerName = name;
         playerHp = hp;
         playerAttack = attack;
         playerDefense = defence;
         playerMana = mana;
-        playerLevel = level;
+        playerLevel = xp;
         playerGold = gold;
         
     }
-
-    public void player_died()
+    public override string ToString()
     {
-        if (playerHp == 0)
-        {
-            Console.WriteLine("You died");
-        }
-        
+        return playerName + " has " + playerHp + " Health " + playerAttack + " Attack and " + playerDefense + " Defence";
+
     }
+
+
+
 }
