@@ -11,11 +11,7 @@ public class Program
         viewController.addView("Shop", new Shop());
 
         viewController.display("Menu");
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
+
 
         Mob mob1 = new Mob("Hurensohn", 5, 1, 0); 
 
@@ -31,7 +27,7 @@ public class Program
         Arena arena8 = new Arena(8, "Goblin cave");
         Arena arena9 = new Arena(9, "Zeppelin");
         Arena arena10 = new Arena(10, "Volcano");
->>>>>>> Stashed changes
+
     }
 
 }
