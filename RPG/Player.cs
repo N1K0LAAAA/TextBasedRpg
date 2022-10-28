@@ -1,5 +1,5 @@
 
-    public class Player
+public class Player
 {
 
     private string playerName;
@@ -29,15 +29,19 @@
 
     }
 
-     public int getAttack()
+    public int getAttack()
     {
-        return this.playerAttack;
+       return this.playerAttack;
     }
 
-       public void Defend(Mob mob)
+    public void Defend(Mob mob)
     {
         int actualAttack = mob.getAttack() - (playerDefense - 2);
-        playerHp =- actualAttack;
+        playerHp -= actualAttack;
     }
-   
+
+    public bool alive() 
+    {
+        return this.playerHp > 0;
     }
+}

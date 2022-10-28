@@ -1,5 +1,4 @@
 
-
 public class Mob
 {
 
@@ -21,15 +20,20 @@ public class Mob
 
     }
 
- public int getAttack() {
-    
+    public int getAttack() 
+    {
         return this.mobAttack;
     }
 
-   public void Defend(Player player) { 
-    
+    public void Defend(Player player)
+    { 
         int actualAttack =player.getAttack() - (mobDefence - 2);
-        mobHp =- actualAttack;
+        mobHp -= actualAttack;
+    }
+
+    public bool alive()
+    {
+        return this.mobHp > 0;
     }
 } 
 
