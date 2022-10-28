@@ -19,7 +19,7 @@ public class Arena : View
         Console.Clear();
         Console.WriteLine("Press Escape to go back to the main Menu");
         Console.WriteLine("1) Village");
-        
+       
 
         switch (Console.ReadKey().Key)
         {
@@ -27,8 +27,10 @@ public class Arena : View
                 viewController.display("Menu");
                 break;
              case ConsoleKey.D1:
-                viewController.display("Village");
-                 break;
+                Console.Clear();
+                combat.Fighting();
+                Console.ReadLine();
+                break;
         }
     } 
     

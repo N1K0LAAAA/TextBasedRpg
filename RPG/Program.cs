@@ -4,7 +4,7 @@ public class Program
 { 
     public static void Main(string[] args)
     {
-         Mob mob = new Mob("Hurensohn", 5, 1, 0); 
+         Mob mob = new Mob("Hurensohn", 6, 1, 0); 
 
         Player player = new Player("Player", 2, 0, 0, 0, 0, 10);
 
@@ -13,15 +13,12 @@ public class Program
         viewController.addView("Menu", new Menu());
         viewController.addView("Arena", new Arena(1, "Village",player,mob));
         viewController.addView("Shop", new Shop());
-        
+        viewController.addView("Village", new Arena(2, "Village",player,mob));
+       
 
         viewController.display("Menu");
 
 
-
-
-
-       
         /*  
              Arena arena2 = new Arena(2, "Desert");
            Arena arena3 = new Arena(3, "Mountain");
