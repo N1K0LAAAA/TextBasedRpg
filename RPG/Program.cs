@@ -5,7 +5,7 @@ public class Program
 
     public static void Main(string[] args)
     {
-        Mob mob1 = new Mob("Pilliger", 6, 2, 0); 
+        Mob mob1 = new Mob("Pillager", 6, 2, 0); 
         Mob mob2 = new Mob("Villager", 5, 3, 0);
         Mob mob3 = new Mob("Blacksmith", 10, 2, 1);
 
@@ -26,16 +26,16 @@ public class Program
 
 
         /*  
-             Arena arena2 = new Arena(2, "Desert");
-           Arena arena3 = new Arena(3, "Mountain");
-          Arena arena4 = new Arena(4, "Field");
-         Arena arena5 = new Arena(5, "Forest");
+        Arena arena2 = new Arena(2, "Desert");
+        Arena arena3 = new Arena(3, "Mountain");
+        Arena arena4 = new Arena(4, "Field");
+        Arena arena5 = new Arena(5, "Forest");
         Arena arena6 = new Arena(6, "City");
         Arena arena7 = new Arena(7, "Ocean");
         Arena arena8 = new Arena(8, "Goblin cave");
         Arena arena9 = new Arena(9, "Zeppelin");
         Arena arena10 = new Arena(10, "Volcano"); 
-       */
+        */
         
 
     }

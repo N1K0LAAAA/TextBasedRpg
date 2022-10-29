@@ -20,13 +20,11 @@ public class Player
         playerMana = mana;
         playerLevel = level;
         playerGold = gold;
-        
     }
 
     public override string ToString()
     {
         return playerName + " has " + playerHp + " Health " + playerAttack + " Attack and " + playerDefense + " Defence";
-
     }
 
     public int getAttack()

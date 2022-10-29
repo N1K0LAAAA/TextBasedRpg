@@ -1,8 +1,6 @@
 ﻿public class ViewController
 {
-
     Dictionary<string, View> views;
-   
 
     public ViewController()
     {
@@ -18,6 +16,4 @@
     {
         this.views.Add(viewName.ToLower(), view);
     }
-    
-    
 }
