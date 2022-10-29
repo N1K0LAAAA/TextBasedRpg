@@ -5,9 +5,9 @@ public class Program
 
     public static void Main(string[] args)
     {
-        Mob mob1 = new Mob("Pillager", 6, 2, 0); 
-        Mob mob2 = new Mob("Villager", 5, 3, 0);
-        Mob mob3 = new Mob("Blacksmith", 10, 2, 1);
+        Mob mob1 = new Mob("Pillager", 6, 2, 0, 5, 5); 
+        Mob mob2 = new Mob("Villager", 5, 3, 0, 5, 5);
+        Mob mob3 = new Mob("Blacksmith", 10, 2, 1, 5, 5);
 
         Player player = new Player("Player", 2, 0, 0, 0, 0, 10);
 
@@ -19,9 +19,6 @@ public class Program
         viewController.addView("Menu", new Menu());
         viewController.addView("Arena", new Arena(1, "Village", player, mob[i]));
         viewController.addView("Shop", new Shop());
-        
-       
-
         viewController.display("Menu");
 
 

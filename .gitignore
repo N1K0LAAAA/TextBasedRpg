@@ -1,3 +1,4 @@
 .vs/
 RPG\bin/
 RPG\obj/
+*.dll
