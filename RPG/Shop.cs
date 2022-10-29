@@ -1,7 +1,5 @@
 public class Shop : View 
 {
-    
-
     public Shop()
     {
         
@@ -22,5 +20,3 @@ public class Shop : View
         }
     }
 }
-
-
