@@ -16,20 +16,23 @@ public class Arena : View
     }
     public override void display(ViewController viewController)
     {
-        Console.Clear();
-        Console.WriteLine("Press Escape to go back to the main Menu");
-        Console.WriteLine("1) Village");
-
-        switch (Console.ReadKey().Key)
+        while(true)
         {
-            case ConsoleKey.Escape:
-                viewController.display("Menu");
-                break;
-             case ConsoleKey.D1:
-                Console.Clear();
-                combat.Fighting();
-                Console.ReadLine();
-                break;
+            Console.Clear();
+            Console.WriteLine("Press Escape to go back to the main Menu");
+            Console.WriteLine("1) Village");
+
+            switch (Console.ReadKey().Key)
+            {
+                case ConsoleKey.Escape:
+                    viewController.display("Menu");
+                    break;
+                 case ConsoleKey.D1:
+                    Console.Clear();
+                    combat.Fighting();
+                    Console.ReadLine();
+                    break;
+            }
         }
     } 
     
