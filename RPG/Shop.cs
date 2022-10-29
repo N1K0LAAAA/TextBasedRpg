@@ -7,20 +7,19 @@ public class Shop : View
 
     public override void display(ViewController viewController)
     {
-
-        Console.Clear();
-        Console.WriteLine("Press Escape to go back to the main Menu");
-        Console.WriteLine("Shop Items");
-
-        switch (Console.ReadKey().Key)
+        while (true)
         {
-            case ConsoleKey.Escape:
+            Console.Clear();
+            Console.WriteLine("Press Escape to go back to the main Menu");
+            Console.WriteLine("Shop Items");
+
+            if (Console.ReadKey().Key == ConsoleKey.Escape)
+            {
                 viewController.display("Menu");
-                break;
+                    break;
+            }
         }
-
     }
-
 }
 
 
