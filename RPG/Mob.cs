@@ -27,7 +27,7 @@ public class Mob
 
     public void Defend(Player player)
     { 
-        int actualAttack =player.getAttack() - (mobDefence - 2);
+        int actualAttack =player.getAttack() - (mobDefence - 1);
         mobHp -= actualAttack;
     }
 

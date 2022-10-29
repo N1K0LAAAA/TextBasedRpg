@@ -36,7 +36,7 @@ public class Player
 
     public void Defend(Mob mob)
     {
-        int actualAttack = mob.getAttack() - (playerDefense - 2);
+        int actualAttack = mob.getAttack() - (playerDefense - 1);
         playerHp -= actualAttack;
     }
 

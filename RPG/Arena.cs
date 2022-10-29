@@ -6,6 +6,7 @@ public class Arena : View
     Mob mob;
     Combat combat;
 
+
     public Arena(int arenaLevel, string name, Player player, Mob mob)
     {
         arena1bis10 = arenaLevel;

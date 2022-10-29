@@ -2,18 +2,24 @@
 
 public class Program
 { 
+
     public static void Main(string[] args)
     {
-         Mob mob = new Mob("Hurensohn", 6, 1, 0); 
+        Mob mob1 = new Mob("Pilliger", 6, 2, 0); 
+        Mob mob2 = new Mob("Villager", 5, 3, 0);
+        Mob mob3 = new Mob("Blacksmith", 10, 2, 1);
 
         Player player = new Player("Player", 2, 0, 0, 0, 0, 10);
 
         ViewController viewController = new ViewController();
 
+        Mob[] mob = new Mob[3] { mob1, mob2, mob3 };
+        int i = new Random().Next(0,3);
+
         viewController.addView("Menu", new Menu());
-        viewController.addView("Arena", new Arena(1, "Village",player,mob));
+        viewController.addView("Arena", new Arena(1, "Village", player, mob[i]));
         viewController.addView("Shop", new Shop());
-        viewController.addView("Village", new Arena(2, "Village",player,mob));
+        
        
 
         viewController.display("Menu");
