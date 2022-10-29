@@ -1,6 +1,5 @@
 ﻿public class ViewController
 {
-
     Dictionary<string, View> views;
 
     public ViewController()

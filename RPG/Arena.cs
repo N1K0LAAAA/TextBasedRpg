@@ -1,25 +1,37 @@
 public class Arena : View
 {
-    int arena1bis10;
-    string arenaName;
+    int stage;
+    string name;
+    Player player;
+    Mob mob;
+    Combat combat;
 
-    public Arena(int arenaLevel, string name)
+    public Arena(int arenaLevel, string arenaName, Player player, Mob mob)
     {
-        arena1bis10 = arenaLevel;
-        arenaName = name;
+        this.stage = arenaLevel;
+        this.name = arenaName;
+        this.player = player;
+        this.mob = mob;
+        this.combat = new Combat(player, mob);
     }
     public override void display(ViewController viewController)
     {
-        while (true)
-        {
-            Console.Clear();
-            Console.WriteLine("Press Escape to go back to the main Menu");
+        Console.Clear();
+        Console.WriteLine("Press Escape to go back to the main Menu");
+        Console.WriteLine("1) Village");
 
-            if (Console.ReadKey().Key == ConsoleKey.Escape)
-            {
+        switch (Console.ReadKey().Key)
+        {
+            case ConsoleKey.Escape:
                 viewController.display("Menu");
-                    break;
-            }
+                break;
+             case ConsoleKey.D1:
+                Console.Clear();
+                combat.Fighting();
+                Console.ReadLine();
+                break;
         }
-    }
+    } 
+    
+
 }
