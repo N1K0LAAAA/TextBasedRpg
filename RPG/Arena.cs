@@ -30,8 +30,15 @@ public class Arena : View
                  case ConsoleKey.D1:
                     Console.Clear();
                     combat.Fighting();
-                    Console.ReadLine();
-                    break;
+                    Console.WriteLine("Press Escape to go back to main menu");
+                    while(true)
+                    { 
+                      if(Console.ReadKey().Key == ConsoleKey.Escape )
+                      {
+                        viewController.display("Menu");
+                      }
+                    }
+                    
             }
         }
     } 
