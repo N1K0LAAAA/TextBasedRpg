@@ -1,25 +1,16 @@
 
 public class Player
 {
-    
+
     private string playerName;
-    private int playerHp;
     private int playerAttack;
     private int playerDefense;
     private int playerMana;
+    public int playerHp { get; set; }
     private int playerXp;
-    public int PlayerXp
-  
-    {
-    get { return playerXp;}
-    set { playerXp = value;}
-    }
     private int playerGold;
-    public int PlayerGold 
-    {
-    get { return playerGold;}
-    set {  playerGold = value;}
-    }
+    public int playerMaxHp { get; set; }
+
 
     public Player(string name, int attack, int defence, int mana, int xp, int gold, int hp)
     {
@@ -30,6 +21,8 @@ public class Player
         playerMana = mana;
         playerXp = xp;
         playerGold = gold;
+        playerMaxHp = playerHp;
+        
        
     }
 
@@ -53,6 +46,5 @@ public class Player
     {
         return this.playerHp > 0;
     }
-
-
-}
+    }
+    

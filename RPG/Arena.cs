@@ -21,7 +21,6 @@ public class Arena : View
             Console.Clear();
             Console.WriteLine("Press Escape to go back to the main Menu");
             Console.WriteLine("1) Village");
-
             switch (Console.ReadKey().Key)
             {
                 case ConsoleKey.Escape:
@@ -31,6 +30,8 @@ public class Arena : View
                     Console.Clear();
                     combat.Fighting();
                     Console.WriteLine("Press Escape to go back to main menu");
+                    player.playerHp = player.playerMaxHp;
+                    mob.mobHp = mob.mobMaxHp;
                     while(true)
                     { 
                       if(Console.ReadKey().Key == ConsoleKey.Escape )

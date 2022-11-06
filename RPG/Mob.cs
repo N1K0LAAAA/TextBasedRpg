@@ -3,12 +3,12 @@ public class Mob
 {
 
     string mobName;
-    private int mobHp;
     private int mobAttack;
     private int mobDefence;
     private int mobXp;
     private int mobGold;
-
+    public int mobHp;
+    public int mobMaxHp;
 
     public Mob(string name, int hp, int attack, int defence, int xp, int gold)
     {
@@ -18,6 +18,7 @@ public class Mob
         mobHp = hp;
         mobXp = xp;
         mobGold = gold;
+        mobMaxHp = mobHp;
 
     }
     public override string ToString()
